@@ -9,3 +9,5 @@ http://tensorflowkeras.blogspot.com/
 https://www.codewars.com/
 <h1>leetcode</h1>
 https://leetcode.com/
+<h1>網誌</h1>
+https://medium.com/@chih.sheng.huang821
