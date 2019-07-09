@@ -9,5 +9,6 @@ http://tensorflowkeras.blogspot.com/
 https://www.codewars.com/
 <h1>leetcode</h1>
 https://leetcode.com/
-<h1>網誌</h1>
-https://medium.com/@chih.sheng.huang821
+<h1>Loss function</h1>
+https://www.itread01.com/content/1529744232.html
+https://bit.ly/2Dtu9T2
