@@ -13,7 +13,6 @@ def sum_combine(x, n, s = 1):
             y = sum_combine(x - i, n - 1, i + 1)
             
             for j in y:
-                print(j)
                 if len(y) == 1 and isinstance(j, int): #如果y只有一個元素 且此元素j是整數
                     result.append([i] + y)
                 else:
