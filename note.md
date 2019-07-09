@@ -10,5 +10,5 @@ https://www.codewars.com/
 <h1>leetcode</h1>
 https://leetcode.com/
 <h1>Loss function</h1>
-https://www.itread01.com/content/1529744232.html
+https://www.itread01.com/content/1529744232.html<br>
 https://bit.ly/2Dtu9T2
