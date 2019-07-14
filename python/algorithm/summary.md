@@ -11,5 +11,8 @@
         <tr>
             <td>Insert</td><td>O</td><td>O(n^2)</td><td>O(1)</td>
         </tr>
+        <tr>
+            <td>Selection</td><td>X</td><td>O(n^2)</td><td>O(1)</td>
+        </tr>
     </tbody>
 </table>
