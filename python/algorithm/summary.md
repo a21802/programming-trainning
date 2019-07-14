@@ -25,3 +25,6 @@
         </tr>
     </tbody>
 </table>
+
+<h1>參考:</h1>
+http://notepad.yehyeh.net/Content/Algorithm/Sort/Sort.php
