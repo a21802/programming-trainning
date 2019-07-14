@@ -18,7 +18,7 @@
             <td>Shell</td><td>X</td><td>O(nlogn)</td><td>O(1)</td>
         </tr>
         <tr>
-            <td>Quick</td><td>X</td><td>O(nlogn)</td><td>O(logn)</td>
+            <td>Quick</td><td>X</td><td>O(nlogn)</td><td>O(n)</td>
         </tr>
         <tr>
             <td>Merge</td><td>O</td><td>O(nlogn)</td><td>O(1)</td>
