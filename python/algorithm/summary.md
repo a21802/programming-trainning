@@ -21,7 +21,7 @@
             <td>Quick</td><td>X</td><td>O(nlogn)</td><td>O(n)</td>
         </tr>
         <tr>
-            <td>Merge</td><td>O</td><td>O(nlogn)</td><td>O(1)</td>
+            <td>Merge</td><td>O</td><td>O(nlogn)</td><td>O(n)</td>
         </tr>
         <tr>
             <td>Heap</td><td>X</td><td>O(nlogn)</td><td>O(1)</td>
