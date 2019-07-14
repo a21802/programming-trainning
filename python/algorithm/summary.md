@@ -1,15 +1,15 @@
 <table>
     <thead>
         <tr>
-            <th>a</th><th>b</th><th>c</th>
+            <th>名稱</th><th>穩定</th><th>(平均)時間複雜度</th><th>空間複雜度</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>1</td><td>2</td><td>3</td>
+            <td>Bubble</td><td>O</td><td>O(n^2)</td><td>O(1)</td>
         </tr>
         <tr>
-            <td>4</td><td>5</td><td>6</td>
+            <td>Insert</td><td>O</td><td>O(n^2)</td><td>O(1)</td>
         </tr>
     </tbody>
 </table>
