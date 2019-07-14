@@ -14,5 +14,14 @@
         <tr>
             <td>Selection</td><td>X</td><td>O(n^2)</td><td>O(1)</td>
         </tr>
+        <tr>
+            <td>Shell</td><td>X</td><td>O(nlogn)</td><td>O(1)</td>
+        </tr>
+        <tr>
+            <td>Quick</td><td>X</td><td>O(nlogn)</td><td>O(logn)</td>
+        </tr>
+        <tr>
+            <td>Merge</td><td>O</td><td>O(nlogn)</td><td>O(1)</td>
+        </tr>
     </tbody>
 </table>
