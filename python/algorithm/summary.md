@@ -26,5 +26,6 @@
     </tbody>
 </table>
 
-<h1>參考:</h1>
+<h2>參考:</h2>
 http://notepad.yehyeh.net/Content/Algorithm/Sort/Sort.php
+https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95
