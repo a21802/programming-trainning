@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(12,71): warning C4244:  '引數': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(12,71): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(12,71): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(12,71): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(12,71): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(12,55): warning C4244:  '引數': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(12,55): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(12,55): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(12,55): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(12,55): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(13,76): warning C4244:  '引數': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(13,76): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(13,76): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(13,76): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(13,76): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(13,60): warning C4244:  '引數': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(13,60): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(13,60): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(13,60): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\rotate\rotate\main.cpp(13,60): warning C4244:         ]
+  rotate.vcxproj -> C:\git\programming-trainning\C++\image processing\rotate\x64\Debug\rotate.exe

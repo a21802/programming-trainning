@@ -1,12 +1,12 @@
 ﻿  main.cpp
-C:\git\programming-trainning\C++\image processing\warpAffine\warpAffine\main.cpp(21,59): warning C4244:  '引數': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
-C:\git\programming-trainning\C++\image processing\warpAffine\warpAffine\main.cpp(21,59): warning C4244:         with
-C:\git\programming-trainning\C++\image processing\warpAffine\warpAffine\main.cpp(21,59): warning C4244:         [
-C:\git\programming-trainning\C++\image processing\warpAffine\warpAffine\main.cpp(21,59): warning C4244:             _Tp=int
-C:\git\programming-trainning\C++\image processing\warpAffine\warpAffine\main.cpp(21,59): warning C4244:         ]
-C:\git\programming-trainning\C++\image processing\warpAffine\warpAffine\main.cpp(21,37): warning C4244:  '引數': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
-C:\git\programming-trainning\C++\image processing\warpAffine\warpAffine\main.cpp(21,37): warning C4244:         with
-C:\git\programming-trainning\C++\image processing\warpAffine\warpAffine\main.cpp(21,37): warning C4244:         [
-C:\git\programming-trainning\C++\image processing\warpAffine\warpAffine\main.cpp(21,37): warning C4244:             _Tp=int
-C:\git\programming-trainning\C++\image processing\warpAffine\warpAffine\main.cpp(21,37): warning C4244:         ]
-  warpAffine.vcxproj -> C:\git\programming-trainning\C++\image processing\warpAffine\x64\Debug\warpAffine.exe
+C:\git\programming-trainning\C++\image processing\2. warpAffine\warpAffine\main.cpp(21,59): warning C4244:  '引數': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\2. warpAffine\warpAffine\main.cpp(21,59): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\2. warpAffine\warpAffine\main.cpp(21,59): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\2. warpAffine\warpAffine\main.cpp(21,59): warning C4244:             _Tp=int
+C:\git\programming-trainning\C++\image processing\2. warpAffine\warpAffine\main.cpp(21,59): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\2. warpAffine\warpAffine\main.cpp(21,37): warning C4244:  '引數': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\2. warpAffine\warpAffine\main.cpp(21,37): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\2. warpAffine\warpAffine\main.cpp(21,37): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\2. warpAffine\warpAffine\main.cpp(21,37): warning C4244:             _Tp=int
+C:\git\programming-trainning\C++\image processing\2. warpAffine\warpAffine\main.cpp(21,37): warning C4244:         ]
+  warpAffine.vcxproj -> C:\git\programming-trainning\C++\image processing\2. warpAffine\x64\Debug\warpAffine.exe
