@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(20,23): warning C4244:  '引數': 將 'int' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(20,23): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(20,23): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(20,23): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(20,23): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(20,20): warning C4244:  '引數': 將 'int' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(20,20): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(20,20): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(20,20): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(20,20): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(40,24): warning C4244:  '引數': 將 'int' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(40,24): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(40,24): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(40,24): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(40,24): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(40,21): warning C4244:  '引數': 將 'int' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(40,21): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(40,21): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(40,21): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\perspective\perspective\main.cpp(40,21): warning C4244:         ]
+  perspective.vcxproj -> C:\git\programming-trainning\C++\image processing\perspective\x64\Debug\perspective.exe
