@@ -7,6 +7,9 @@ using namespace std;
 
 Mat polar(Mat I, Point2f center, Size size, float minr = 0, float mintheta = 0, float thetaStep = 1.0 / 4, float rStep = 1.0)
 {
+	// 先造一個 size.height*1 大小的ri
+	// 再向x方向repeat size.width次
+	// 形成 size.height*size.width 大小的r
 	Mat ri = Mat::zeros(Size(1, size.height), CV_32FC1);
 	for (int i = 0; i < size.height; i++)
 	{
@@ -14,6 +17,9 @@ Mat polar(Mat I, Point2f center, Size size, float minr = 0, float mintheta = 0, 
 	}
 	Mat r = repeat(ri, 1, size.width);
 
+	// 先造一個 1*size.width 大小的thetaj
+	// 再向y方向repeat size.height次
+	// 形成 size.height*size.width 大小的theta
 	Mat thetaj = Mat::zeros(Size(size.width, 1), CV_32FC1);
 	for (int j = 0; j < size.width; j++)
 	{
@@ -24,9 +30,11 @@ Mat polar(Mat I, Point2f center, Size size, float minr = 0, float mintheta = 0, 
 	Mat x, y;
 	polarToCart(r, theta, x, y, true);
 
+	// 座標原點移到中心
 	x += center.x;
 	y += center.y;
-
+	// 造一個size大小的灰階矩陣
+	// 用途為下面做插值時若超出範圍, 至少還有個灰階色
 	Mat dst = 125 * Mat::ones(size, CV_8UC1);
 	for (int i = 0; i < size.height; i++)
 	{
@@ -53,10 +61,10 @@ int main(int argc, char* argv[])
 	if (!I.data)
 		return -1;
 
-	float thetaStep = 1.0 / 4;
-	float minr = 270;
-	Size size(int(360 / thetaStep), 70);
-	Mat dst = polar(I, Point2f(508, 503), size, minr);
+	float thetaStep = 1.0 / 4; // theta步長
+	float minr = 270;          // r的範圍(270, 340)實驗獲得, 故下行輸出圖片的高為70
+	Size size(int(360 / thetaStep), 70); // 輸出圖片的大小 70*1440 
+	Mat dst = polar(I, Point2f(508, 503), size, minr); // (508, 503)為圖型中心點座標
 	Mat dst2;
 	resize(I, dst2, Size(), 0.5, 0.5);
 
@@ -64,6 +72,7 @@ int main(int argc, char* argv[])
 
 	imshow("I", dst2);
 	imshow("極座標轉換", dst);
+	imwrite("result.jpg", dst);
 	waitKey(0);
 	return 0;
 }
