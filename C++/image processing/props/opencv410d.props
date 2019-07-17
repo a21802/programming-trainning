@@ -8,8 +8,8 @@
       <AdditionalIncludeDirectories>C:\opencv\build\include;C:\Users\User\Anaconda3\include;C:\Users\User\Anaconda3\pkgs\numpy-base-1.16.2-py36hc3f5095_0\Lib\site-packages\numpy\core\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>C:\opencv\build\x64\vc15\lib;C:\Users\User\Anaconda3\libs;C:\Users\User\Anaconda3\Lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_world410d.lib;python37.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world410d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
