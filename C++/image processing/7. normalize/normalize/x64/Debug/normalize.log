@@ -1,4 +1,3 @@
 ﻿  main.cpp
-E:\git\C++\image processing\7. normalize\normalize\main.cpp(25,14): warning C4244:  '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
-  LINK : 最後的累加連結找不到或未建置 E:\git\C++\image processing\7. normalize\x64\Debug\normalize.exe，正在執行完整連結
-  normalize.vcxproj -> E:\git\C++\image processing\7. normalize\x64\Debug\normalize.exe
+C:\git\programming-trainning\C++\image processing\7. normalize\normalize\main.cpp(25,14): warning C4244:  '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  normalize.vcxproj -> C:\git\programming-trainning\C++\image processing\7. normalize\x64\Debug\normalize.exe

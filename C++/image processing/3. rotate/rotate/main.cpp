@@ -5,9 +5,15 @@ using namespace cv;
 
 int main(int argc, char* argv[])
 {
-
 	std::string str = "..//..//img//bird.jpg";
 	Mat img = imread(str, IMREAD_ANYCOLOR);
+
+	Mat dst;
+
+	//flip(img, dst, -1);
+	//imshow("Org", img);
+	//imshow("Dst", dst);
+
 
 	Mat rot_mat30 = getRotationMatrix2D(Point2f(img.cols / 2.0, img.rows / 2.0), 30, 1.0);   // 角度正的為逆時鐘轉
 	Mat rot_matminus30 = getRotationMatrix2D(Point2f(img.cols / 2.0, img.rows / 2.0), -30, 1.0);
