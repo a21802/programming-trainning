@@ -1,0 +1,11 @@
+﻿  main.cpp
+E:\git\C++\image processing\16. bilateral\bifilter\main.cpp(73,44): warning C4244:  '=': 將 '_Tp' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+E:\git\C++\image processing\16. bilateral\bifilter\main.cpp(73,44): warning C4244:         with
+E:\git\C++\image processing\16. bilateral\bifilter\main.cpp(73,44): warning C4244:         [
+E:\git\C++\image processing\16. bilateral\bifilter\main.cpp(73,44): warning C4244:             _Tp=double
+E:\git\C++\image processing\16. bilateral\bifilter\main.cpp(73,44): warning C4244:         ]
+E:\git\C++\image processing\16. bilateral\bifilter\main.cpp(73,44): warning C4244:         and
+E:\git\C++\image processing\16. bilateral\bifilter\main.cpp(73,44): warning C4244:         [
+E:\git\C++\image processing\16. bilateral\bifilter\main.cpp(73,44): warning C4244:             _Tp=float
+E:\git\C++\image processing\16. bilateral\bifilter\main.cpp(73,44): warning C4244:         ]
+  bifilter.vcxproj -> E:\git\C++\image processing\16. bilateral\x64\Debug\bifilter.exe

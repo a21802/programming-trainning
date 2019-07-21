@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\git\C++\image processing\guided filter\guided filter\main.cpp(53,39): warning C4305:  '引數': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  guided filter.vcxproj -> E:\git\C++\image processing\guided filter\x64\Debug\guided filter.exe
