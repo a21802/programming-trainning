@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "morphologyEX", "morphologyEX\morphologyEX.vcxproj", "{546721D2-E56C-405F-A790-D1BA7FCFBF46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{546721D2-E56C-405F-A790-D1BA7FCFBF46}.Debug|x64.ActiveCfg = Debug|x64
+		{546721D2-E56C-405F-A790-D1BA7FCFBF46}.Debug|x64.Build.0 = Debug|x64
+		{546721D2-E56C-405F-A790-D1BA7FCFBF46}.Debug|x86.ActiveCfg = Debug|Win32
+		{546721D2-E56C-405F-A790-D1BA7FCFBF46}.Debug|x86.Build.0 = Debug|Win32
+		{546721D2-E56C-405F-A790-D1BA7FCFBF46}.Release|x64.ActiveCfg = Release|x64
+		{546721D2-E56C-405F-A790-D1BA7FCFBF46}.Release|x64.Build.0 = Release|x64
+		{546721D2-E56C-405F-A790-D1BA7FCFBF46}.Release|x86.ActiveCfg = Release|Win32
+		{546721D2-E56C-405F-A790-D1BA7FCFBF46}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DA88EA9-CBAB-4F80-9A51-2E98FB173769}
+	EndGlobalSection
+EndGlobal
