@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\git\programming-trainning\C++\image processing\threshold entropy\threshold entropy\main.cpp(78,71): warning C4244:  '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\threshold entropy\threshold entropy\main.cpp(84,49): warning C4244:  '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\threshold entropy\threshold entropy\main.cpp(86,82): warning C4244:  '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  threshold entropy.vcxproj -> C:\git\programming-trainning\C++\image processing\threshold entropy\x64\Debug\threshold entropy.exe
