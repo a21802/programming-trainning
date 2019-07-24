@@ -1,6 +1,6 @@
 <h1>C&C++差異</h1>
 http://epaper.gotop.com.tw/PDFSample/AEL020600.pdf
-<h1>MACRO</hi>
+<h1>MACRO</h1>
 https://www.itread01.com/content/1545375546.html
 <h1>待讀</h1>
 <h4>metaprogramming</h4>
