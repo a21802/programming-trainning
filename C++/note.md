@@ -1,3 +1,5 @@
+<h1>style</h1>
+https://tw-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/headers.html
 <h1>C&C++差異</h1>
 http://epaper.gotop.com.tw/PDFSample/AEL020600.pdf
 <h1>macro</h1>
