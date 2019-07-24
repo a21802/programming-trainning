@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\git\programming-trainning\C++\image processing\sobel\sobel\main.cpp(22,51): warning C4244:  '=': 將 'int' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\sobel\sobel\main.cpp(22,51): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\sobel\sobel\main.cpp(22,51): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\sobel\sobel\main.cpp(22,51): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\sobel\sobel\main.cpp(22,51): warning C4244:         ]
+  sobel.vcxproj -> C:\git\programming-trainning\C++\image processing\sobel\x64\Debug\sobel.exe

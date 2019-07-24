@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\git\programming-trainning\C++\image processing\canny\canny\main.cpp(23,16): warning C4244:  '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\canny\canny\main.cpp(79,16): warning C4244:  '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  canny.vcxproj -> C:\git\programming-trainning\C++\image processing\canny\x64\Debug\canny.exe
