@@ -2,6 +2,8 @@
 https://tw-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/headers.html
 <h1>C&C++差異</h1>
 http://epaper.gotop.com.tw/PDFSample/AEL020600.pdf
+<h1>malloc V.S. new</h1>
+http://www.programmer-club.com.tw/ShowSameTitleN/c/34973.html
 <h1>macro</h1>
 https://www.itread01.com/content/1545375546.html
 <h1>待讀</h1>
