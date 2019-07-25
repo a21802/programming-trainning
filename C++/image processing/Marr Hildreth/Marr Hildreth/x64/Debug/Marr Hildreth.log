@@ -1,0 +1,44 @@
+﻿  main.cpp
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(33,83): warning C4244:  '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(74,78): warning C4244:  '=': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(74,78): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(74,78): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(74,78): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(74,78): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(144,43): warning C4244:  '=': 將 '_Tp' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(144,43): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(144,43): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(144,43): warning C4244:             _Tp=double
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(144,43): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(144,43): warning C4244:         and
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(144,43): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(144,43): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(144,43): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(147,44): warning C4244:  '=': 將 '_Tp' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(147,44): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(147,44): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(147,44): warning C4244:             _Tp=double
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(147,44): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(147,44): warning C4244:         and
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(147,44): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(147,44): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(147,44): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(150,43): warning C4244:  '=': 將 '_Tp' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(150,43): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(150,43): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(150,43): warning C4244:             _Tp=double
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(150,43): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(150,43): warning C4244:         and
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(150,43): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(150,43): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(150,43): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(153,47): warning C4244:  '=': 將 '_Tp' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(153,47): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(153,47): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(153,47): warning C4244:             _Tp=double
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(153,47): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(153,47): warning C4244:         and
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(153,47): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(153,47): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\Marr Hildreth\Marr Hildreth\main.cpp(153,47): warning C4244:         ]
+  Marr Hildreth.vcxproj -> C:\git\programming-trainning\C++\image processing\Marr Hildreth\x64\Debug\Marr Hildreth.exe

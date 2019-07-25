@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(17,15): warning C4244:  '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(18,40): warning C4244:  '=': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(18,40): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(18,40): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(18,40): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(18,40): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(19,52): warning C4244:  '=': 將 'double' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(19,52): warning C4244:         with
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(19,52): warning C4244:         [
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(19,52): warning C4244:             _Tp=float
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(19,52): warning C4244:         ]
+C:\git\programming-trainning\C++\image processing\LoG\LoG\main.cpp(72,10): warning C4244:  '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  LoG.vcxproj -> C:\git\programming-trainning\C++\image processing\LoG\x64\Debug\LoG.exe
