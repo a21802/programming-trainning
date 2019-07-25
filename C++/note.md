@@ -4,6 +4,8 @@ https://tw-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/head
 http://epaper.gotop.com.tw/PDFSample/AEL020600.pdf
 <h1>malloc V.S. new</h1>
 http://www.programmer-club.com.tw/ShowSameTitleN/c/34973.html
+<h1>smart pointer</h1>
+https://kheresy.wordpress.com/2012/03/03/c11_smartpointer_p1/
 <h1>macro</h1>
 https://www.itread01.com/content/1545375546.html
 <h1>待讀</h1>
