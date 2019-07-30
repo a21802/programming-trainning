@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\git\programming-trainning\C++\image processing\findcontours\findcontours\main.cpp(26,27): warning C4267:  '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+  findcontours.vcxproj -> C:\git\programming-trainning\C++\image processing\findcontours\x64\Debug\findcontours.exe

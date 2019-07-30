@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\git\programming-trainning\C++\image processing\hough\hough\main.cpp(15,8): warning C4244:  '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\hough\hough\main.cpp(39,17): warning C4244:  '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\hough\hough\main.cpp(40,17): warning C4244:  '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\git\programming-trainning\C++\image processing\hough\hough\main.cpp(99,25): warning C4267:  '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+  正在產生程式碼
+  Previous IPDB not found, fall back to full compilation.
+  All 332 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  hough.vcxproj -> C:\git\programming-trainning\C++\image processing\hough\x64\Release\hough.exe
