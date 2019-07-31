@@ -23,6 +23,7 @@ int main(int argc, char* argv[])
 	Mat dst2;
 	resize(I, dst2, Size(), fResize_fac, fResize_fac);
 	imshow("Org", I);
+	//namedWindow("resize", WINDOW_GUI_EXPANDED);
 	imshow("warpAffine", dst1);
 	imshow("resize", dst2);
 	waitKey(0);
