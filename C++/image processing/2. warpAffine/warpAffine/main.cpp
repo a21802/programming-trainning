@@ -1,13 +1,15 @@
 #include<opencv2/core.hpp>
 #include<opencv2/highgui.hpp>
 #include<opencv2/imgproc.hpp>
+#include<iostream>
 using namespace cv;
+using namespace std;
 
 int main(int argc, char* argv[])
 {
 	double fResize_fac = 0.5;
 
-	std::string str = "..//..//img//bird.jpg";
+	string str = "..//..//img//bird.jpg";
 	Mat I = imread(str, IMREAD_GRAYSCALE);
 	if (!I.data)
 		return -1;
@@ -26,6 +28,19 @@ int main(int argc, char* argv[])
 	//namedWindow("resize", WINDOW_GUI_EXPANDED);
 	imshow("warpAffine", dst1);
 	imshow("resize", dst2);
-	waitKey(0);
+
+	bool isExit = false;
+	while (!isExit) {
+		char c = waitKey(0);
+		switch (c) {
+		case '\x1b':
+			cout << "exit......" << endl;
+			isExit = true;
+		}
+	}
+	destroyAllWindows();
+
+	//waitKey(0);
+	system("pause");
 	return 0;
 }
