@@ -2,7 +2,8 @@
 https://bit.ly/2xBusHT <br>
 https://github.com/kurolz/Books/tree/master/Python
 <h1>Markdown</h1>
-https://markdown.tw/
+https://markdown.tw/  
+https://gist.github.com/billy3321/1001749662c370887c63bb30f26c9e6e
 <h1>tensorflow</h1>
 http://tensorflowkeras.blogspot.com/
 <h1>Loss function</h1>
