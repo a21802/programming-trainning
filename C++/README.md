@@ -1,5 +1,7 @@
 # online compiler
-https://www.onlinegdb.com/online_c++_compiler
+https://www.onlinegdb.com/online_c++_compiler  
+https://ideone.com/zIytp7  
+https://glot.io/new/cpp
 # style
 https://tw-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/headers.html
 # C&C++差異
