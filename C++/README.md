@@ -8,7 +8,8 @@ https://tw-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/head
 http://epaper.gotop.com.tw/PDFSample/AEL020600.pdf
 # C++ 11
 https://my.oschina.net/wangxuanyihaha/blog/183151  
-http://towriting.com/blog/2013/08/01/what-is-cpp11/
+http://towriting.com/blog/2013/08/01/what-is-cpp11/  
+https://www.kancloud.cn/wangshubo1989/new-characteristics/99704
 # lambda
 https://blog.gtwang.org/programming/lambda-expression-in-c11/
 # macro
