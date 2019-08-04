@@ -24,6 +24,10 @@ using namespace std;
 
 class Solution {
 public:
+
+	bool IsEven (int i) { 
+        return (i%2) == 0; 
+    }
     
     bool same(int i, int j){
         if( (i % 2) == (j % 2) )
@@ -39,7 +43,7 @@ public:
     }
     
     vector<int> sortArrayByParityII(vector<int>& A) {
-        int i, j; 
+        /* int i, j; 
         int size = A.size();
         bool flag;
         
@@ -65,7 +69,32 @@ public:
             }
         }
         
-        return A;
+        return A; */
+		
+		auto bound = std::partition (A.begin(), A.end(), 
+                                     [](int x) { return x % 2 == 0;});
+        
+        auto it = A.begin();
+        
+        int i = 0, size = A.size();
+        vector<int> temp;
+        
+        while(i < size){
+            
+            if(IsEven(i)){
+                temp.push_back(*it);
+                it++;
+            }
+            else{
+                temp.push_back(*bound);
+                bound++;
+            }
+            i++;
+    
+        }
+       
+        
+        return temp;
     }
 };
 
