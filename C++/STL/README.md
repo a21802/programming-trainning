@@ -1,2 +1,2 @@
 # STL
-http://c.biancheng.net/view/580.html
+http://c.biancheng.net/stl/
