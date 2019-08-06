@@ -4,6 +4,8 @@ http://c.biancheng.net/stl/
 http://www.cplusplus.com/reference/algorithm/
 
 ## \<algorithm\>
+> 無修改型序列操作
+
 function|discraption
 ---|---
 all_of  |序列(迭代器範圍)內所有元素是否符合條件, 回傳true/false
@@ -24,3 +26,102 @@ is_permutation|判斷序列依是否為序列二的排序, 回傳true/false
 search|同find_end, 但為尋找第一組匹配項目
 search_n|搜尋序列中某數連續出現n次, 回傳連續出現n次的第一個元素的迭代器
 
+> 修改型序列操作
+
+function|discraption
+---|---
+copy|複製序列至另一序列中
+copy_n|複製序列的n個元素至另一序列中
+copy_if|複製序列中符合條件的元素至另一序列中
+copy_backward|複製序列至另一序列的末端(不會改變原序列順序)
+move|
+move_backward|
+swap|
+swap_ranges|
+iter_swap|
+transform|
+replace|
+replace_if|
+replace_copy|
+replace_copy_if|
+fill|
+fill_n|
+generate|
+generate_n|
+remove|
+remove_if|
+remove_copy|
+remove_copy_if|
+unique|
+unique_copy|
+reverse|
+reverse_copy|
+rotate|
+rotate_copy|
+random_shuffle|
+shuffle|
+
+> Partitions:
+
+function|discraption
+---|---
+is_partitioned|
+partition|
+stable_partition|
+partition_copy|
+partition_point|
+
+> Sorting:
+
+function|discraption
+---|---
+sort|
+stable_sort|
+partial_sort|
+partial_sort_copy|
+is_sorted|
+is_sorted_until|
+nth_element|
+
+> Binary search(operating on partitioned/sorted ranges):
+
+function|discraption
+---|---
+lower_bound|
+upper_bound|
+equal_range|
+binary_search|
+
+> Merge(operating on sorted ranges):
+
+function|discraption
+---|---
+merge|
+inplace_merge|
+includes|
+set_union|
+set_intersection|
+set_difference|
+set_symmetric_difference|
+
+> Heap:
+
+function|discraption
+---|---
+push_heap|
+pop_heap|
+make_heap|
+sort_heap|
+is_heap|
+is_heap_until|
+
+> Min/max:
+
+function|discraption
+---|---
+min|
+max|
+minmax|
+min_element|
+max_element|
+minmax_element|
