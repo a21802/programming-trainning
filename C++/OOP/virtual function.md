@@ -22,3 +22,65 @@ C++的原則是 VPTR 會指向設定它的建構函數所屬類別的 VTABLE 。
 
 ## 動態多型
 
+虛擬函數可以實現「執行時期」的多型支援，是一個「晚期連結」（Late binding）、「動態連結」（Dynamic binding），也就是指必須在執行時期才會得知所要調用的物件或其上的公開介面。  
+
+在談虛擬函數之前必須先知道，一個基礎類別的物件指標，可以用來指向其衍生類別物件而不會發生錯誤，例如若基底類別是Base，而衍生類別是Derived，則 下面這個指定是可以接受的：
+``` 
+Base *bptr; 
+Derived d; 
+bptr = &d;
+```
+多型與動態連結的基礎從這開始，它們只有在使用指標或參考時才得以發揮它們的特性，然而由於bptr仍是Base類型的指標，它只能存取Base中有定義的成員，目前來說也只能操作Base中的成員。
+
+注意將衍生類別型態的指標指向基礎類別的物件基本是不可行的（雖然可以使用型態轉換的方式來勉強達成，但並不鼓勵），衍生類別的指標並不能存取基礎類別的成員。 
+
+虛擬函數是一種成員函式，它在基礎類別中使用關鍵字"virtual"宣告（定義），並在衍生類別中重新定義虛擬函數，這將成員函數的操作決議 （Resolution）推遲至執行時期再決定。
+
+虛擬函數可以實現執行時期的「多型」，也就是「一個介面，多種函式」，一個含有虛擬函數的類別被稱為「多型的類別」（Polymorphic class），當一個基礎類別型態的指標指向一個含有虛擬函數的衍生類別，您就可以使用這個指標來存取衍生類別中的虛擬函數。
+```
+#include <iostream> 
+using namespace std; 
+
+class Base { 
+public: 
+    virtual void show() { 
+        cout << "Base's show" << endl; 
+    } 
+}; 
+
+class Derived : public Base { 
+public: 
+    virtual void show() {
+        cout << "Derived's show" << endl; 
+    } 
+}; 
+
+void showFooByPtr(Base *foo) {
+    foo->show();
+}
+
+void showFooByRef(Base &foo) {
+    foo.show();
+}
+
+int main() { 
+    Base f1; 
+    Derived f2; 
+
+    // 動態連結
+    showFooByPtr(&f1); 
+    showFooByPtr(&f2);
+    cout << endl;
+ 
+    // 動態連結
+    showFooByRef(f1); 
+    showFooByRef(f2);
+    cout << endl; 
+
+    // 靜態連結
+    f1.show(); 
+    f2.show(); 
+
+    return 0;
+}
+```
