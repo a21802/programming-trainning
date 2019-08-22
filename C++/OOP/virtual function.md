@@ -1,6 +1,6 @@
 # 虛擬函數
 
-當我們談到虛擬函數 (virtual function 或 virtual method) 時, 總是會和 "繼承" 與 "多型" 牽扯在一起. 虛擬函數就是指一個函數的行為可以在其所屬類別之衍生類別中被另一個和該函數具有相同簽章(signature) 之同名函數所重新設計和替換掉. 換句話說, 虛擬函數存在的目的就是讓衍生類別可以自行設計修改原有之函數行為.
+當我們談到虛擬函數 (virtual function 或 virtual method) 時, 總是會和 "繼承" 與 "多型" 牽扯在一起. 虛擬函數就是指一個函數的行為可以在其所屬類別之衍生類別中被另一個和該函數具有相同簽名(signature) 之同名函數所重新設計和替換掉. 換句話說, 虛擬函數存在的目的就是讓衍生類別可以自行設計修改原有之函數行為.
 
 ## VTABLE / VPOINTER
 
@@ -80,6 +80,49 @@ int main() {
     // 靜態連結
     f1.show(); 
     f2.show(); 
+
+    return 0;
+}
+```
+
+# 純虛擬函數
+
+在一些情況下，你希望衍生類別和基礎類別有一樣的介面(簽名、宣告)，但不樣的定義(實作)。與impure virtual function不同，pure virtual function要求你一定要重新定義該函式。純虛擬函數除了virtual 關鍵字外，還需要"= 0"。
+```
+virtual void show() = 0;
+```
+
+- 宣告一個pure virtual function的目的是為了讓衍生類別只繼承函式介面
+- 宣告一個impure virtual function的目的是為了讓衍生類別繼承該函式的介面和預設實作
+- pure virtual function也可以有實作定義
+
+```
+#include <iostream>
+
+using namespace std;
+
+class Base{
+public:
+    virtual void show() = 0;
+};
+
+void Base::show(){
+    cout << "Base" << endl;
+}
+
+class Derived : public Base{
+public:
+    virtual void show(){
+        cout << "Derived" << endl;
+    }
+};
+
+
+int main()
+{
+    Derived d;
+    d.show();        // Derived
+    d.Base::show();  // Base
 
     return 0;
 }
