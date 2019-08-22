@@ -25,8 +25,6 @@ https://ethercalc.org/dykc
 http://www.programmer-club.com.tw/ShowSameTitleN/c/43549.html
 #### malloc V.S. new
 http://www.programmer-club.com.tw/ShowSameTitleN/c/34973.html
-#### smart pointer
-https://kheresy.wordpress.com/2012/03/03/c11_smartpointer_p1/
 #### downcasting
 https://novus.pixnet.net/blog/post/33197344-%E5%B0%8D-c%2B%2B-%E7%89%A9%E4%BB%B6%E4%B8%80%E5%80%8B%E5%B8%B8%E8%A6%8B%E7%9A%84%E8%AA%A4%E8%A7%A3
 #### shared memory

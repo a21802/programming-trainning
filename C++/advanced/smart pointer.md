@@ -1,5 +1,8 @@
 # smart pointer
 
+> reference  
+> https://kheresy.wordpress.com/2012/03/03/c11_smartpointer_p1/
+
 ## UNIQUE_PTR
 
 確保一份資源（被配置出來的記憶體空間）只會被一個 unique_ptr 物件管理的 smart pointer；當 unique_ptr 物件消失時，就會自動釋放資源。
