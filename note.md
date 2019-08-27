@@ -21,3 +21,5 @@ http://www.csie.ntnu.edu.tw/~u91029/index.html
 https://gto76.github.io/linux-cheatsheet/
 <h1>image proccess</h1>
 https://blog.csdn.net/baimafujinji/column/info/math-imageprocess
+# oi wiki  
+https://oi-wiki.org/
