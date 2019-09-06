@@ -15,6 +15,9 @@ https://blog.gtwang.org/programming/lambda-expression-in-c11/
 # macro
 https://www.itread01.com/content/1545375546.html
 # 待讀
+#### templete  
+https://blog.csdn.net/lezardfu/article/details/56852043  
+https://blog.csdn.net/qq_35637562/article/details/55194097
 #### metaprogramming
 https://home.gamer.com.tw/creationDetail.php?sn=249622
 #### placement new
