@@ -4,6 +4,8 @@ https://ideone.com/zIytp7
 https://glot.io/new/cpp
 # style
 https://tw-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/headers.html
+# C Class
+https://icecube.wisc.edu/~dglo/c_class/index.html
 # C&C++差異
 http://epaper.gotop.com.tw/PDFSample/AEL020600.pdf
 # C++ 11
