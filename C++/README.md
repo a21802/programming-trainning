@@ -5,9 +5,9 @@ https://glot.io/new/cpp
 # style
 https://tw-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/headers.html  
 # C 
-- C Class
+- C Class  
 https://icecube.wisc.edu/~dglo/c_class/index.html  
-- 本当は怖いC言語
+- 本当は怖いC言語  
 http://pl-learning-blog.logdown.com/categories/C-language
 # C&C++差異
 http://epaper.gotop.com.tw/PDFSample/AEL020600.pdf
@@ -23,16 +23,16 @@ https://www.itread01.com/content/1545375546.html
 - templete  
 https://blog.csdn.net/lezardfu/article/details/56852043  
 https://blog.csdn.net/qq_35637562/article/details/55194097
-- metaprogramming
+- metaprogramming  
 https://home.gamer.com.tw/creationDetail.php?sn=249622
-- placement new
+- placement new  
 https://www.cnblogs.com/luxiaoxun/archive/2012/08/10/2631812.html
-- dykc
+- dykc  
 https://ethercalc.org/dykc
-- virtual distructor
+- virtual distructor  
 http://www.programmer-club.com.tw/ShowSameTitleN/c/43549.html
-- malloc V.S. new
+- malloc V.S. new  
 http://www.programmer-club.com.tw/ShowSameTitleN/c/34973.html
-- downcasting
+- downcasting  
 https://novus.pixnet.net/blog/post/33197344-%E5%B0%8D-c%2B%2B-%E7%89%A9%E4%BB%B6%E4%B8%80%E5%80%8B%E5%B8%B8%E8%A6%8B%E7%9A%84%E8%AA%A4%E8%A7%A3
 - shared memory
