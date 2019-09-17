@@ -3,14 +3,18 @@
 > refence: https://www.cnblogs.com/jiayouwyhit/p/3242124.html
 
 - new 是個「運算子」(operator). malloc() 是個函式.
-- new 知道類型, 所配置的大小是以類型為單位, 你只需寫需要多少個元素:
+- new 知道類型, 所配置的大小是以類型為單位, 你只需寫需要多少個元素
+- 程式結束前, 使用delete將記憶體釋放
 ```
 const size_t ARRAY_SIZE = 30; 
 int *pi = new int[ARRAY_SIZE];
+deltet [] pi;    // 必須加上[]，表示釋放陣列空間
 ```
-- malloc() 只會配置 bytes, 所以你還得乘上類型的大小:
+- malloc() 只會配置 bytes, 所以你還得乘上類型的大小
+- 程式結束前, 使用free將記憶體釋放
 ```
 int *pi = (int*)malloc(ARRAY_SIZE * sizeof *pi);
+free(pi)
 ```
 -  malloc() 在 C 裡使用不需 typecast. C++ 是個 strong-typed language, 在 C++ 裡使用 malloc() 需要 typecast. 
 - 因為 new 知道類型, 所以在配置後, new 會呼叫 constructor 來初始化所配置的記憶體. malloc() 只管配置. 

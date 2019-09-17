@@ -6,12 +6,12 @@ https://www.geeksforgeeks.org/pointer-vs-array-in-c/
 - sizeof(pointer) 只回傳指針變量本身使用的記憶體量
 
 ### 2. & 運算子
-- &array是&array[0]的別稱, 回傳陣列中第一個元素的地址
-- &pointer 回傳指標的地址
+- &array是&array[0] 的別稱, 回傳陣列中第一個元素的位址
+- &pointer 回傳指標的位址
 
 ### 3. 字串文字初始化的字串陣列
-- char array[]="abc"設置前4個元素為'a'、'b'、'c'和'\0'在陣列中
-- char *pointer="abc"設置指向"abc"字串地址的指標(儲存在唯讀記憶體中且不能修改)
+- char array[]="abc" 設置前 4 個元素為 'a'、'b'、'c' 和 '\0' 在陣列中
+- char *pointer="abc" 設置指向 "abc" 字串地址的指標(儲存在唯讀記憶體中且不能修改)
 
 ### 4. 指針變量可以賦值，而陣列變量不能
 ```
