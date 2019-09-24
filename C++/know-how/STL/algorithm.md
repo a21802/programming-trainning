@@ -1,10 +1,9 @@
-# STL
-## reference
-http://c.biancheng.net/stl/  
-http://www.cplusplus.com/reference/algorithm/
+#### reference
+> http://c.biancheng.net/stl/  
+> http://www.cplusplus.com/reference/algorithm/
 
 ## \<algorithm\>
-> 無修改型序列操作
+無修改型序列操作
 
 function|discraption
 ---|---
@@ -26,7 +25,7 @@ is_permutation|判斷序列依是否為序列二的排序, 回傳true/false
 search|同find_end, 但為尋找第一組匹配項目
 search_n|搜尋序列中某數連續出現n次, 回傳連續出現n次的第一個元素的迭代器
 
-> 修改型序列操作
+修改型序列操作
 
 function|discraption
 ---|---
@@ -61,7 +60,7 @@ rotate_copy|
 random_shuffle|
 shuffle|
 
-> Partitions:
+Partitions:
 
 function|discraption
 ---|---
@@ -71,7 +70,7 @@ stable_partition|
 partition_copy|
 partition_point|
 
-> Sorting:
+Sorting:
 
 function|discraption
 ---|---
@@ -83,7 +82,7 @@ is_sorted|
 is_sorted_until|
 nth_element|
 
-> Binary search(operating on partitioned/sorted ranges):
+Binary search(operating on partitioned/sorted ranges):
 
 function|discraption
 ---|---
@@ -92,7 +91,7 @@ upper_bound|
 equal_range|
 binary_search|
 
-> Merge(operating on sorted ranges):
+Merge(operating on sorted ranges):
 
 function|discraption
 ---|---
@@ -104,7 +103,7 @@ set_intersection|
 set_difference|
 set_symmetric_difference|
 
-> Heap:
+Heap:
 
 function|discraption
 ---|---
@@ -115,7 +114,7 @@ sort_heap|
 is_heap|
 is_heap_until|
 
-> Min/max:
+Min/max:
 
 function|discraption
 ---|---

@@ -1,5 +1,8 @@
-## ref: geeksforgeeks
-https://www.geeksforgeeks.org/pointer-vs-array-in-c/
+# Array vs Pointer
+
+#### reference: 
+> geeksforgeeks
+> https://www.geeksforgeeks.org/pointer-vs-array-in-c/
 
 ### 1. sizeof 運算子
 - sizeof(array) 回傳陣列中所有元素使用的記憶體量

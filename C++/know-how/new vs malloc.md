@@ -1,10 +1,12 @@
 # new vs malloc
 
-> refence: https://www.cnblogs.com/jiayouwyhit/p/3242124.html
+#### refence: 
+> https://www.cnblogs.com/jiayouwyhit/p/3242124.html
 
 - new 是個「運算子」(operator). malloc() 是個函式.
 - new 知道類型, 所配置的大小是以類型為單位, 你只需寫需要多少個元素
 - 程式結束前, 使用delete將記憶體釋放
+- 
 ```
 const size_t ARRAY_SIZE = 30; 
 int *pi = new int[ARRAY_SIZE];
