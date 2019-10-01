@@ -13,6 +13,8 @@ https://icecube.wisc.edu/~dglo/c_class/index.html
 - 本当は怖いC言語  
 http://pl-learning-blog.logdown.com/categories/C-language  
 - C語言測試
+- C語言標準庫  
+http://tw.gitbook.net/c_standard_library/index.html
 ## C++ 11
 https://my.oschina.net/wangxuanyihaha/blog/183151  
 http://towriting.com/blog/2013/08/01/what-is-cpp11/  
