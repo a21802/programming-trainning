@@ -87,7 +87,7 @@ int main() {
 
 # 純虛擬函數
 
-在一些情況下，你希望衍生類別和基礎類別有一樣的介面(簽名、宣告)，但不樣的定義(實作)。與impure virtual function不同，pure virtual function要求你一定要重新定義該函式。純虛擬函數除了virtual 關鍵字外，還需要 **"= 0"**。
+在一些情況下，你希望衍生類別和基礎類別有一樣的介面(簽名、宣告)，但不樣的定義(實作)。與impure virtual function不同，pure virtual function要求你**一定**要重新定義該函式。純虛擬函數除了virtual 關鍵字外，還需要 **"= 0"**。
 ```
 virtual void show() = 0;
 ```

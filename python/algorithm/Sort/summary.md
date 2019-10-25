@@ -1,35 +1,17 @@
-<table>
-    <thead>
-        <tr>
-            <th>名稱</th><th>穩定</th><th>(平均)時間複雜度</th><th>空間複雜度</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Bubble</td><td>O</td><td>O(n^2)</td><td>O(1)</td>
-        </tr>
-        <tr>
-            <td>Insert</td><td>O</td><td>O(n^2)</td><td>O(1)</td>
-        </tr>
-        <tr>
-            <td>Selection</td><td>X</td><td>O(n^2)</td><td>O(1)</td>
-        </tr>
-        <tr>
-            <td>Shell</td><td>X</td><td>O(nlogn)</td><td>O(1)</td>
-        </tr>
-        <tr>
-            <td>Quick</td><td>X</td><td>O(nlogn)</td><td>O(n)</td>
-        </tr>
-        <tr>
-            <td>Merge</td><td>O</td><td>O(nlogn)</td><td>O(n)</td>
-        </tr>
-        <tr>
-            <td>Heap</td><td>X</td><td>O(nlogn)</td><td>O(1)</td>
-        </tr>
-    </tbody>
-</table>
+名稱|穩定|(平均)時間複雜度|空間複雜度|流程
+-|-|-|-|-
+Bubble|$$\bigcirc$$|$$O(n^2)$$|$$O(1)$$|由資料**第一項**與**第二項**做比對，若**第一項** > **第二項**則進行交換,接下來**第二項**與**第三項**做比對，以此類推直到資料最大的元素移至最右邊，再從頭開始相同流程
+Insert|$$\bigcirc$$|$$O(n^2)$$|$$O(1)$$|將資料分為**已排序(左)**與**未排序(右)**，未排序的第一筆資料插入到已排序的資料中插入時**由右至左**比較，途中若遇的值比正在處理的值大，則**右移**
+Selection|$$\times$$|$$O(n^2)$$|$$O(1)$$|搜尋未排序資料的最小者，移至未排序資料的最左端
+Shell|$$\times$$|$$O(nlogn)$$|$$O(1)$$|將資料依特定間隔(gap)分組進行插入排序法，再**逐漸減少間隔的大小**(gap/2)，可減少**插入演算法**中資料搬移次數
+Quick|$$\times$$|$$O(nlogn)$$|$$O(n)$$|選定一個**基準值(pivot)**，將**比pivot小**的數值移到pivot**左邊**，形成**左子串列**，將**比pivot大**的數值移到pivot**右邊**，形成右子串列分別對左子串列、右子串列作上述三個步驟 ⇒ 遞迴(Recursive)
+Merge|$$\bigcirc$$|$$O(nlogn)$$|$$O(n)$$|先分割再合併，以**長度一半**進行分割(遞迴)，直至分割後長度為1，合併時由左右串列最小值依序填入
+Heap|$$\times$$|$$O(nlogn)$$|$$O(1)$$|將資料排序模擬成一個(完全)二元樹,若為最大堆積樹，則父節點的值大於子節點的值(左右不重要)，樹根(root)是所有堆積樹中最大的調整成最大堆積樹後，將root(最大值)與最後一個節點交換，將最後一個節點取出，重做最大堆積樹
 
-<h2>參考:</h2>
-http://notepad.yehyeh.net/Content/Algorithm/Sort/Sort.php <br>
-http://www.csie.ntnu.edu.tw/~u91029/Sequence3.html<br>
+#### 穩定:
+如果鍵值相同之資料，在**排序後相對位置與排序前相同**時，稱穩定排序
+
+## 參考:
+http://notepad.yehyeh.net/Content/Algorithm/Sort/Sort.php 
+http://www.csie.ntnu.edu.tw/~u91029/Sequence3.html
 https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95
