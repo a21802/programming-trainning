@@ -1,6 +1,7 @@
 # Books
 https://bit.ly/2xBusHT <br>
-https://github.com/kurolz/Books/tree/master/Python
+https://github.com/kurolz/Books/tree/master/Python 
+https://github.com/lancetw/ebook-1 
 # Markdown
 https://markdown.tw/  
 https://gist.github.com/billy3321/1001749662c370887c63bb30f26c9e6e
